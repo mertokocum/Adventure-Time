@@ -11,5 +11,3 @@ There is a login-registration page at the beginning of the application. Registra
 **SUPPORTED ANDROID VERSION:** 10/11/12/13
 
 **CODED WITH:** ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-
-This app is my first android app. So if you have any advice, please share it with me.
