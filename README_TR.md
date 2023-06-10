@@ -9,4 +9,4 @@ Uygulamayı açtığınızda ilk göreceğiniz ekran giriş-kayıt ekranıdır. 
 
 **DESTEKLENEN ANDROID SURUMLERI:** 10/11/12/13
 
-**KULLANILAN DİLLER:** ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+**KODLAMA:** ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
