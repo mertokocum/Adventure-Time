@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MonthsLearning"
+    android:background="@drawable/background3">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/januaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/button_selector_yellow"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:text="J A N U A R Y"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/februaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/januaryButton"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector_orange"
+        android:fontFamily="@font/font2"
+        android:paddingTop="5dp"
+        android:text="F E B R U A R Y"
+        android:textSize="30sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/marchButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_below="@id/februaryButton"
+        android:background="@drawable/button_selector_red"
+        android:text="M A R C H" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/aprilButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_below="@id/marchButton"
+        android:background="@drawable/button_selector_pink"
+        android:text="A P R I L" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mayButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:layout_below="@id/aprilButton"
+        android:background="@drawable/button_selector_green"
+        android:text="M A Y" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/juneButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:fontFamily="@font/font2"
+        android:paddingTop="5dp"
+        android:layout_below="@id/mayButton"
+        android:background="@drawable/button_selector_blue"
+        android:text="J U N E"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/julyButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/juneButton"
+        android:background="@drawable/button_selector_purple"
+
+        android:text="J U L Y" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/augustButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/julyButton"
+        android:background="@drawable/button_selector_yellow"
+
+        android:text="A U G U S T" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/septemberButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/augustButton"
+        android:background="@drawable/button_selector_orange"
+
+        android:text="S E P T E M B E R" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/octoberButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/septemberButton"
+        android:background="@drawable/button_selector_red"
+
+        android:text="O C T O B E R" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/novemberButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/octoberButton"
+        android:background="@drawable/button_selector_green"
+
+        android:text="N O V E M B E R" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/decemberButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/novemberButton"
+        android:background="@drawable/button_selector_blue"
+
+        android:text="D E C E M B E R" />
+
+    <ToggleButton
+        android:id="@+id/soundToggle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/sound_off"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text=" "
+        android:textOn=""
+        android:textOff=""/>
+
+
+<ImageView
+android:id="@+id/backButtonMonths"
+android:layout_width="80dp"
+android:layout_height="50dp"
+
+android:backgroundTint="#f0cfdf"
+android:src="@drawable/baseline_arrow_circle_left_24" />
+
+    <ImageView
+        android:id="@+id/nextButtonMonths"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+
+        android:src="@drawable/baseline_arrow_circle_right_24"
+        android:backgroundTint="#f0cfdf"/>
+
+
+</RelativeLayout>

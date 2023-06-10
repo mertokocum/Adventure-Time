@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Directions"
+    android:background="@drawable/background4">
+
+    <ImageView
+        android:id="@+id/backButtonDirections"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-10dp"
+
+
+        android:backgroundTint="#f0cfdf"
+        android:src="@drawable/baseline_arrow_circle_left_24" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/previousButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:background="@drawable/button_selector_left"
+        android:layout_marginTop="570dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/info_button"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/feather"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_selector_right"
+        android:layout_marginTop="570dp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:contentDescription="TODO" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="400dp"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:buttonTint="@color/blue"
+            android:clickable="false"
+
+            />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:clickable="false"
+            android:buttonTint="@color/blue"
+            />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:buttonTint="@color/blue"
+            android:clickable="false"/>
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:buttonTint="@color/blue"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:clickable="false"/>
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:buttonTint="@color/blue"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:clickable="false"/>
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="35dp"
+            android:buttonTint="@color/blue"
+            android:layout_height="35dp"
+            android:clickable="false"/>
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="35dp"
+            android:buttonTint="@color/blue"
+            android:layout_height="35dp"
+            android:clickable="false"/>
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="35dp"
+            android:buttonTint="@color/blue"
+            android:layout_height="35dp"
+            android:clickable="false"/>
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="35dp"
+            android:buttonTint="@color/blue"
+            android:layout_height="35dp"
+            android:clickable="false"/>
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="35dp"
+            android:buttonTint="@color/blue"
+            android:layout_height="35dp"
+            android:clickable="false"/>
+    </RadioGroup>
+
+</RelativeLayout>

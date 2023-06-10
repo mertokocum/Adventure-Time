@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="audio_files">
+        <item>speech1.mp4</item>
+        <item>logout.mp4</item>
+
+    </string-array>
+
+</resources>

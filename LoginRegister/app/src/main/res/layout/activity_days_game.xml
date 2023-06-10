@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaysGame"
+    android:background="@drawable/background4">
+
+    <TextView
+        android:id="@+id/soruTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/backButtonDaysGame"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/baseline_arrow_circle_left_24"
+        android:backgroundTint="#f0cfdf"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/soruTextView"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="-30dp">
+
+        <Button
+            android:id="@+id/pazartesiButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_blue"
+            android:fontFamily="@font/feather"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/saliButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_yellow"
+            android:fontFamily="@font/feather"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/carsambaButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_red"
+            android:fontFamily="@font/feather"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/persembeButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_pink"
+            android:fontFamily="@font/feather"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/cumaButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_green"
+            android:fontFamily="@font/feather"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/cumartesiButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_purple"
+            android:fontFamily="@font/feather"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/pazarButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector_orange"
+            android:fontFamily="@font/feather"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/blueshape"
+        android:fontFamily="@font/feather"
+        android:text="LET'S PLAY !"
+        android:gravity="center"
+        android:textSize="27dp"
+        android:textColor="#FDFDFD" />
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context=".Register">
+
+
+    <TextView
+        android:id="@+id/register2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/note1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register2"
+
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Create your account, it's free and only takes a minute"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/backButtonRegister"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="580dp"
+        android:src="@drawable/baseline_arrow_circle_left_24"
+        android:backgroundTint="#f0cfdf"/>
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/note1"
+        android:hint="Email"
+        android:background="#f0cfdf"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:hint="Password"
+        android:background="#f0cfdf"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"/>
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:hint="Confirm password"
+        android:background="#f0cfdf"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_below="@id/registerbtn"
+        android:layout_margin="50dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/registerbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmPassword"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginLeft="250dp"
+
+        android:backgroundTint="#b4e9e9"
+        android:text="REGISTER"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

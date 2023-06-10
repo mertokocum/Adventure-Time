@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="AdventureTime"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".Producers"
+            android:exported="false" />
+        <activity
+            android:name=".Directions"
+            android:exported="false" />
+        <activity
+            android:name=".MonthsGame"
+            android:exported="false" />
+        <activity
+            android:name=".MonthsLearning"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterTurkish"
+            android:exported="false" />
+        <activity
+            android:name=".DaysGame"
+            android:exported="false" />
+        <activity
+            android:name=".Days"
+            android:exported="false" />
+        <activity
+            android:name=".User"
+            android:exported="false" />
+        <activity
+            android:name=".RememberDigits"
+            android:exported="false" />
+        <activity
+            android:name=".BallGame"
+            android:exported="false" />
+        <activity
+            android:name=".Spelling"
+            android:exported="false" />
+        <activity
+            android:name=".SeasonsLearning"
+            android:exported="false" />
+        <activity
+            android:name=".SubMenuTurkish2"
+            android:exported="false" />
+        <activity
+            android:name=".SubMenu2"
+            android:exported="false" />
+        <activity
+            android:name=".SubMenuTurkish"
+            android:exported="false" />
+        <activity
+            android:name=".SubMenu"
+            android:exported="false" />
+        <activity
+            android:name=".LoginTurkish"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuTurkish"
+            android:exported="false" />
+        <activity
+            android:name=".Games"
+            android:exported="false" />
+        <activity
+            android:name=".Language"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

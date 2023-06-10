@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".Days"
+    android:background="@drawable/background4">
+
+    <Button
+        android:id="@+id/mondayButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector_yellow"
+        android:fontFamily="@font/font2"
+        android:paddingTop="5dp"
+        android:layout_marginTop="20dp"
+        android:text="M O N D A Y"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/tuesdayButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/font2"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/mondayButton"
+        android:background="@drawable/button_selector_orange"
+        android:text="T U E S D A Y" />
+
+    <Button
+        android:id="@+id/wednesdayButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/font2"
+        android:textSize="29dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:layout_below="@id/tuesdayButton"
+        android:background="@drawable/button_selector_red"
+        android:text="W E D N E S D A Y" />
+
+    <Button
+        android:id="@+id/thursdayButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:layout_below="@id/wednesdayButton"
+        android:background="@drawable/button_selector_pink"
+        android:text="T H U R S D A Y" />
+
+    <Button
+        android:id="@+id/fridayButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:layout_below="@id/thursdayButton"
+        android:background="@drawable/button_selector_green"
+        android:text="F R I D A Y" />
+
+    <Button
+        android:id="@+id/saturdayButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:fontFamily="@font/font2"
+        android:paddingTop="5dp"
+        android:layout_below="@id/fridayButton"
+        android:background="@drawable/button_selector_blue"
+        android:text="S A T U R D A Y"
+        />
+
+    <Button
+        android:id="@+id/sundayButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font2"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/saturdayButton"
+        android:background="@drawable/button_selector_purple"
+
+        android:text="S U N D A Y" />
+
+
+
+    <ImageView
+        android:id="@+id/backButtonDays"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_marginLeft="-20dp"
+        android:layout_marginTop="-60dp"
+        android:src="@drawable/baseline_arrow_circle_left_24"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ToggleButton
+        android:id="@+id/soundToggle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/sound_off"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text=" "
+        android:textOn=""
+        android:textOff=""
+        android:layout_marginTop="-65dp"/>
+
+
+</RelativeLayout>
